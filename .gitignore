@@ -1,0 +1,41 @@
+# Project files
+*.sln
+*.vcxproj*
+*.opensdf
+*.sdf
+*.VC.db
+*.VC.VCOpenness
+*.VC.VC.db
+
+# Binary folders
+/Binaries/*
+/Intermediate/*
+/Saved/*
+/DerivedDataCache/*
+/Build/Receipts/*
+*.pdb
+
+# Optional: If using Xcode (Mac)
+*.xcworkspace
+*.xcuserdata
+*.xcuserstate
+*.xcodeproj
+*.xcconfig
+
+# If using Visual Studio Code
+.vscode/
+
+# If using JetBrains Rider
+.idea/
+
+# If using Perforce
+.p4ignore
+.p4config
+.p4settings
+
+# Ignore OS-specific hidden files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# (Optional) If using Git LFS for large assets, do not ignore them but store them in LFS
